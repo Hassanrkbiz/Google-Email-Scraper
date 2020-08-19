@@ -1,0 +1,88 @@
+.body{
+	width: 450px;
+	height: 400px;
+}
+.heading{
+	padding-top: 20px;
+	text-align: center;
+	font-weight: bolder;
+	padding-bottom: 1px;
+	font-size: 34px;
+}
+.head_div{
+	background: linear-gradient(to right, #ffff66 0%, #ff9900 100%);
+	border-width: 2px;
+	border-color: black;
+}
+#fbgroup{
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left: 140px;
+	text-decoration: underline;
+	color: orange;
+}
+#ourwebsite{
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left: 10px;
+	text-decoration: underline;
+	color: orange;
+}
+.lower-sec{
+	padding-top: 20px;
+    padding-bottom: 10px;
+}
+#left {
+  background: black;
+  position: fixed;
+    top: 0; bottom: 0;
+    width: 70px;
+    left: 0; 
+   }
+.btn{
+   	margin-left: 1px;
+
+   }
+.btn1{
+   	width: 100px;
+   	text-align: center;
+   }
+.lbl{
+	margin: 7px;
+   	font-weight: bolder;
+   	font-size: 18px;
+   }
+.txta{
+	border:4px;
+	border-color: black;
+	margin:5px;
+}
+#email_count{
+	text-align: center;
+	font-weight: bolder;
+
+}
+.textsec{
+	padding-bottom: 70px;
+	padding-top: 35px;
+}
+.txt_div{
+	margin:7px;
+}
+#top, #bottom, #left, #right {
+  background: black;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 10px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 10px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }

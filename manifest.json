@@ -1,0 +1,28 @@
+{
+  "name": "Email Scraper",
+  "version": "1.0",
+  "description": "Scrape Emails",
+  "permissions": ["activeTab","storage"],
+         "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/email16.png",
+        "32": "images/email32.png",
+        "48": "images/email48.png",
+        "128": "images/email128.png"
+      }
+    },
+    "icons": {
+        "16": "images/email16.png",
+        "32": "images/email32.png",
+        "48": "images/email48.png",
+        "128": "images/email128.png"
+    },
+    "content_scripts":[
+  {
+    "matches": ["https://www.google.com/*"],
+    "js": ["content.js"]
+  }
+],
+  "manifest_version": 2
+}
